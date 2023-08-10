@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54968152366",
+    "project_id": "howardsquizapp",
+    "storage_bucket": "howardsquizapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54968152366:android:c85cf01388059310a54abf",
+        "android_client_info": {
+          "package_name": "com.blackdiamondstudios.android.howardsquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54968152366-4b4t9tgijp8pdmkf40f0ka3pqhrdf9lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJfRQXg5r1enCUTo7JOJZmRSb4UTV3AzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54968152366-4b4t9tgijp8pdmkf40f0ka3pqhrdf9lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

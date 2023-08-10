@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ResultActivity">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/result_bg">
+
+
+    <TextView
+        android:id="@+id/tv_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="CONGRATS!"
+        android:textSize="30dp"
+        android:textColor="#888888"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="THIS WAS MY BIRTHDAY GIFT TO YOU!"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_result3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="HAPPY 22ND ANNIVERSARY SWEETHEART!"
+        android:textSize="15dp"
+        android:padding="10dp" />
+
+
+
+    <ImageView
+        android:id="@+id/image_result"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="15dp"
+        tools:src="@drawable/dhl_background"></ImageView>
+    <TextView
+        android:id="@+id/tv_result4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="I LOVE YOU IMMENSELY!"
+        android:textSize="20dp"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/tv_result5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="MY BIRTHDAY WISH TO YOU!"
+        android:textSize="10dp"
+        android:padding="10dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/white" >
+    <TextView
+        android:id="@+id/tv_result6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Keep on being the angel and darling woman to be that you are.I am so overhelmed to have you my dear AKUM DAMARIS ENGOH.Thank you for loving me as well. Enjoy your day!"
+        android:textSize="20dp"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="YOUR SCORE IS 9 OUR OF 19"
+        android:textSize="25dp"
+        android:padding="10dp" />
+    </com.google.android.material.card.MaterialCardView>
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="GOOD LUCK TO LIFE!"
+        android:textColor="@color/design_default_color_background"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+</ScrollView>
